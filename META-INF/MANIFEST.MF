@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Export-Package: demo.service;version="0.1"
+Private-Package: demo.service.internal
+Ignore-Package: demo.service.internal
+Built-By: ming
+Tool: Bnd-0.0.255
+Bundle-Name: demo.service-bundle [demo.service]
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_51
+Bundle-Version: 0.1
+Bnd-LastModified: 1375350810884
+Bundle-ManifestVersion: 2
+Bundle-Activator: demo.service.internal.ExampleActivator
+Import-Package: demo.service;version="0.1",org.osgi.framework
+Bundle-SymbolicName: demo.service-bundle
+
