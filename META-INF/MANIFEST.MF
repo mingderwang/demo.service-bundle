@@ -1,14 +1,13 @@
 Manifest-Version: 1.0
-Export-Package: demo.service;uses:="org.apache.commons.logging";versio
- n="0.1"
-Private-Package: demo.service.impl.*
+Export-Package: demo.service;version="0.1"
+Private-Package: demo.service.impl
 Built-By: ming
 Tool: Bnd-0.0.255
 Bundle-Name: demo.service-bundle [demo.service]
 Created-By: Apache Maven Bundle Plugin
 Bundle-Version: 0.1
 Build-Jdk: 1.6.0_51
-Bnd-LastModified: 1375351253214
+Bnd-LastModified: 1375418305937
 Bundle-ManifestVersion: 2
 Import-Package: demo.service;version="0.1",org.apache.commons.logging
 Bundle-SymbolicName: demo.service-bundle
